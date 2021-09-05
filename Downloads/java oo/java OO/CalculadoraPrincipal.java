@@ -6,5 +6,8 @@ public class CalculadoraPrincipal {
         screen.capturaInfos();
         screen.calcula();
         screen.mostrar();
+        screen.setValorA(50);
+        screen.setValorB(30);
+        screen.setop("+");
     }
 }

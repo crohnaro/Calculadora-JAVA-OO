@@ -6,6 +6,30 @@ public class Calculadora {
     private int valorB;
     private char op;
 
+    public int getValorA() {
+        return valorA;
+    }
+
+    public void setValorA(int valorA) {
+        this.valorA = valorA;
+    }
+
+    public int getValorB() {
+        return valorB;
+    }
+
+    public void setValorB(int valorB) {
+        this.valorB = valorB;
+    }
+
+    public char getop() {
+        return op;
+    }
+
+    public void setop(char op) {
+        this.op = op;
+    }
+
     private boolean testarValor(int valorX) {
         if(valorX > -50 && valorX < 50) {
             return true;
